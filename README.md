@@ -40,10 +40,14 @@ volume-driven trends from value-driven ones.
    Sales value, worth further investigation as bulk orders or data anomalies.
 
 ## Repository Contents
+
 - `train.csv` — raw dataset
-- `data_cleaning.py` — Python cleaning and outlier detection
+- `cleaned_orders.csv` — cleaned dataset after preprocessing
+- `cleaned_orders_with_month.csv` — cleaned dataset with order-month column added for time analysis
+- `new.py` — Python cleaning script + outlier detection (IQR method)
 - `load_to_sql.py` — loads cleaned data into SQLite
-- `sql_analysis.py` — 7 original SQL analysis queries
+- `queries.py` — 7 original SQL analysis queries
+- `retail.db` — SQLite database built from the cleaned data
 - `Sales_Summary_Pivot.xlsx` — Excel pivot table (Order Month × Category)
 - `outliers_flagged.csv` — flagged outlier rows
 - `insights_memo.md` — 1-page business insights memo
