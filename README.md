@@ -40,14 +40,14 @@ volume-driven trends from value-driven ones.
    Sales value, worth further investigation as bulk orders or data anomalies.
 
 ## Repository Contents
-- `orders.csv` — raw dataset
-- `cleaning_script.py` — Python cleaning + outlier detection
-- `sql_queries.sql` — 7 original SQL analysis queries
+- `train.csv` — raw dataset
+- `data_cleaning.py` — Python cleaning and outlier detection
+- `load_to_sql.py` — loads cleaned data into SQLite
+- `sql_analysis.py` — 7 original SQL analysis queries
 - `Sales_Summary_Pivot.xlsx` — Excel pivot table (Order Month × Category)
 - `outliers_flagged.csv` — flagged outlier rows
 - `insights_memo.md` — 1-page business insights memo
 - `retail_project_pipeline.png` — project workflow diagram
-
 
 ## What I'd Do Next
 - Bring in a second dataset (e.g. marketing spend or ad calendar) to test 
