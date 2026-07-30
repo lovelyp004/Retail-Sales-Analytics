@@ -9,7 +9,7 @@ volume-driven trends from value-driven ones.
 
 ## Data & Approach
 ## Project Architecture
-![Project architecture](project_architecture.png)
+![Project architecture](retail_project_pipeline.png)
 - **Dataset**: Superstore retail orders (9,800 rows, 18 columns) — Order, 
   Customer, Product, Region, and Sales fields spanning 2015–2018.
 - **Tools used**: Python (pandas) for cleaning, SQLite for querying, 
@@ -46,7 +46,7 @@ volume-driven trends from value-driven ones.
 - `Sales_Summary_Pivot.xlsx` — Excel pivot table (Order Month × Category)
 - `outliers_flagged.csv` — flagged outlier rows
 - `insights_memo.md` — 1-page business insights memo
-- `project_architecture.png` — project workflow diagram
+- `retail_project_pipeline.png` — project workflow diagram
 
 
 ## What I'd Do Next
