@@ -7,9 +7,10 @@ This project analyzes 4 years (2015–2018) of retail order data to uncover
 which categories, regions, and time periods drive revenue — and to separate 
 volume-driven trends from value-driven ones.
 
-## Data & Approach
 ## Project Architecture
 ![Project architecture](retail_project_pipeline.png)
+
+## Data & Approach
 - **Dataset**: Superstore retail orders (9,800 rows, 18 columns) — Order, 
   Customer, Product, Region, and Sales fields spanning 2015–2018.
 - **Tools used**: Python (pandas) for cleaning, SQLite for querying, 
